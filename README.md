@@ -1,1 +1,102 @@
 # coursera
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 2 assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<style>* { 
+    box-sizing: border-box;
+}
+#item1{
+    background-color: cyan;
+    color: black;
+}
+#item2{
+    background-color: darkred;
+}
+#item3{
+    background-color: green;
+}
+#header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.row h3{
+      border: solid black 2px;
+      float: right;
+      padding: 0 10px;
+      margin: 0;
+}
+.content{
+    border: solid black 2px;
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 0;
+}
+p{
+    margin: 20px 5px 10px 5px;
+}
+@media (min-width: 992px) and (max-width:1500px){
+      .row{
+        width: 100%;
+      }
+      .col-lg-4{
+        float: left;
+        width: 33.3%;
+      }
+}
+@media (min-width:768px)and (max-width:991px) {
+    .row{
+        width: 100%;
+    }
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    .row{
+        width: 100%;
+    }
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+}
+</style>
+<body><div class="container">
+    <header id="header">
+        <h1>Our Menu</h1>
+    </header>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class ="content">
+            <h3 id="item1">Chicken</h3>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis excepturi commodi illo incidunt est temporibus sed, molestias quaerat ipsam error doloremque repellendus aliquam obcaecati? Itaque molestias perferendis accusantium ab saepe?"</p>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="content">
+                <h3 id="item2">Beef</h3>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed tempora blanditiis, veritatis distinctio dolorem voluptates totam cum! Nam earum voluptatibus fugiat tempore, necessitatibus sit facere sint dicta. Dolores, natus neque."</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="content">
+                <h3 id="item3">Sushi</h3>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae explicabo deleniti eius rerum quos magni corrupti quibusdam ducimus in dolore dolorum, dignissimos doloribus inventore? Quo voluptas veniam perspiciatis incidunt."</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
